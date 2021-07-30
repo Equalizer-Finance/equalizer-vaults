@@ -28,7 +28,7 @@
 <!-- PROJECT Summary -->
 ### Project Summary
   <p align="center">
-    A consise summary/purpose of the repository.(About)
+    Collection of Equalizer Vault's assets.
        <br />
     <strong>Version:</strong><br />
     <a href="https://docs.equalizer.finance/"><strong>Explore the docs »</strong></a>
@@ -50,22 +50,7 @@
   <summary><strong>Table of Contents</strong></summary>
   <ol>
     <li>
-      <a href="#usage">Usage</a>
-      <ul>
-        <li><a href="#options">Options</a></li>
-        <li><a href="#examples">Examples</a></li>
-      </ul>
-    </li>
-    <li>
       <a href="#getting-started">Getting Started</a>
-      <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#installation">Installation</a></li>
-        <li><a href="#setup">Setup/Config</a></li>
-        <li><a href="#build">Build</a></li>
-        <li><a href="#deploy">Running/Deploy guide</a></li>
-        <li><a href="#testing">Testing/Debugging/Troubleshooting</a></li>
-      </ul>
     </li>
     <li><a href="#roadmap">Roadmap</a></li>
     <li><a href="#contributing">Contributing</a></li>
@@ -74,86 +59,28 @@
   </ol>
 </details>
 
-## Writing rules (do not include in the README)
-
-- Always double check the seplling and an grammar
-- Documentation and examples must be peer reviewd
-- All examples must to work out of box (must be peer reviewed)
-- Long examples or complex descriptions should be in the directory examples or docs, respectively
-
-<!-- USAGE EXAMPLES -->
-## Usage
-
-In this section describe how to use the project. Description should concise and all the examples must work without errors. All examples must be copy-pastable (so even a beginner knows how to start).
-Additional screenshots, code examples and short demos work well in this space.
-You may also link to more resources.
-Long demons (if present) should be linked.
-
-_For more examples, please refer to the [Documentation](https://example.com)_
-
-(the basic)
-### Options
-
-Commands & extra options
-
-### Examples
-
-1. Enter your API in `config.js`
-   ```JS
-   const API_KEY = 'ENTER YOUR API';
-   ```
-  
-Case of use 
-  
-
 <!-- GETTING STARTED -->
 ## Getting Started
 
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
+This repository contains all the assets information currently used for Equalizer Vaults. 
 
-### Prerequisites
+The structure is divided by chains and later a directory for the address of the vault with a JSON file containing more details
 
-This is an example of how to list things you need to use the software and how to install them.
-* Yarn
-  ```sh
-  yarn install
-  ```
-
-### Installation
-
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
-   ```sh
-   git clone https://github.com/your_username_/Project-Name.git
-   ```
-3. Install dependencies
-   ```sh
-   yarn install
-   ```
-4. Enter your API in `config.js`
-   ```JS
-   const API_KEY = 'ENTER YOUR API';
-   ```
-
-### Setup 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Euismod lacinia at quis risus sed vulputate odio ut enim. Nascetur ridiculus mus mauris vitae ultricies leo integer malesuada. Ut tristique et egestas quis ipsum suspendisse. Consectetur a erat nam at lectus urna duis convallis convallis. Ornare massa eget egestas purus viverra accumsan in nisl nisi. Gravida dictum fusce ut placerat orci nulla pellentesque dignissim.
-
-### Build
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Euismod lacinia at quis risus sed vulputate odio ut enim. Nascetur ridiculus mus mauris vitae ultricies leo integer malesuada. Ut tristique et egestas quis ipsum suspendisse. Consectetur a erat nam at lectus urna duis convallis convallis. Ornare massa eget egestas purus viverra accumsan in nisl nisi. Gravida dictum fusce ut placerat orci nulla pellentesque dignissim.
-
-### Deploy 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Euismod lacinia at quis risus sed vulputate odio ut enim. Nascetur ridiculus mus mauris vitae ultricies leo integer malesuada. Ut tristique et egestas quis ipsum suspendisse. Consectetur a erat nam at lectus urna duis convallis convallis. Ornare massa eget egestas purus viverra accumsan in nisl nisi. Gravida dictum fusce ut placerat orci nulla pellentesque dignissim.
-
-### Testing
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Euismod lacinia at quis risus sed vulputate odio ut enim. Nascetur ridiculus mus mauris vitae ultricies leo integer malesuada. Ut tristique et egestas quis ipsum suspendisse. Consectetur a erat nam at lectus urna duis convallis convallis. Ornare massa eget egestas purus viverra accumsan in nisl nisi. Gravida dictum fusce ut placerat orci nulla pellentesque dignissim.
+```
+chains/
+├── binance
+│   └── assets
+└── ethereum
+    └── assets
+        ├── 0x01b7630d5164d0FBc775Eb78931df44515f9A9B1
+        │   └── info.json
+```
 
 
 <!-- ROADMAP -->
 ## Roadmap
 
 See the [open issues](https://github.com/Equalizer-Finance/equalizer-vaults/issues) for a list of proposed features (and known issues).
-
 
 
 <!-- CONTRIBUTING -->
@@ -167,14 +94,10 @@ Contributions are what make the open source community such an amazing place to b
 4. Push to the Branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
-
-
 <!-- LICENSE -->
 ## License
 
 Distributed under the BSL 1.1 License. See `LICENSE` for more information.
-
-
 
 <!-- CONTACT -->
 ## Contact
