@@ -1,0 +1,11 @@
+{
+    "name": "Equalizer Vault USDC",
+    "type": "ERC20",
+    "symbol": "USDC",
+    "decimals": 18,
+    "website": "https://equalizer.finance",
+    "description": "DeFi Flash Loans Made Easy. The first dedicated platform that equalizes the decentralized markets.",
+    "explorer": "https://etherscan.io/token/0x58D1Dd1e75Ff06508CC027Ca2302220C5A710199",
+    "status": "active",
+    "id": "0x58D1Dd1e75Ff06508CC027Ca2302220C5A710199"
+}
